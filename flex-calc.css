@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom left, rgb(105, 155, 127), rgb(88, 104, 156));
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+button {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+button:hover{
+    background-color: rgb(85, 151, 196);
+    color: white;
+    transform: scale(1.15);
+    transition: all 0.1ms ease ;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.calculator{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #000;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#display{
+    width: 270px;
+    height: 50px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 30px;
+}
+::placeholder{
+    margin-right: 20px;
+}
+.equal:hover{
+    background-color: rgb(50, 153, 93);
+}
+.number:hover{
+    background-color: rgb(49, 42, 42);
+}
+#nav{
+    background: #333;
+    color: white;
+    padding: 5px;
+    text-align: left;
+
+}
+#nav ul {
+    padding: 0px;
+    list-style: none;
+}
+
+#nav a{
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+#nav a:hover{
+    color: coral;
+}

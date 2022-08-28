@@ -1,0 +1,179 @@
+body{
+    background-image:url(/4k-wallpaper-blur-cellphone-1268477.jpg);
+    line-height: 1.6em;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-size: cover;
+
+    }
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+label {
+    display: block;
+    
+}
+input[type = "submit"]{
+    background-color: rgb(48, 112, 155);
+    color: white;
+    padding: 15px 38%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input[type = "text"], [type = "tel"], [type = "email"], [type = "number"], [type = "password"],  textarea, select{
+    width: 80%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+}
+
+#nav{
+    background: rgb(78, 78, 78);
+    color: white;
+    padding: 5px;
+
+}
+#nav ul {
+    padding: 0px;
+    list-style: none;
+}
+#nav li{
+    display: inline;
+}
+#nav a{
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+#nav a:hover{
+    color: coral;
+}
+
+#login{
+    width: 18%;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(170, 170, 170);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#login-submit{
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
+#login-submit:hover{
+    background-color: #333;
+}
+#login p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(141, 140, 140);
+    margin: 0px;
+    font-size: 10px;
+}
+#login h1{
+    margin-bottom: 0px;
+}
+#login h6{
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-top: 0px;
+    color: rgb(141, 140, 140);
+    font-size: 12px;
+}
+.login-account{
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 0px;
+}
+#contact{
+    width: 40%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 30px rgb(170, 170, 170);
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+#contact input, select, textarea {
+    border-radius: 3px;
+    margin-top: 20px;
+    
+
+    
+}
+
+#contact h1 {
+    text-align: center;
+    margin-right: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contact-submit{
+    margin-bottom: 20px;
+}
+#contact-submit:hover{
+    background-color: #333;
+}
+#register{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 30px rgb(170, 170, 170);
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#register input[type = "text"], [type = "tel"], [type = "number"], [type = "password"], select{
+    margin-top: 15px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+
+}
+#register h1{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+#register p{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 5px;
+    color: rgb(141, 140, 140);
+    font-size: 18px;
+}
+input[type = "submit"] {
+    margin-top: 30px;
+}
+#register-submit{
+    border-radius: 1px;
+    margin-top: 30px;
+
+    
+}
+.register-submit:hover{
+    background-color: #333;
+}
+#register h6{
+    color: rgb(141, 140, 140);
+    margin-bottom: 50px;
+    margin-top: 0px;
+}

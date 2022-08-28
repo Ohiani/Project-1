@@ -1,0 +1,77 @@
+body{
+    line-height: 1.6em;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+    background-color: rgb(78, 78, 78);
+
+    }
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+label {
+    display: block;
+    
+}
+
+img{
+       width: 80%;
+        margin-left: 100px;
+        margin-top: 100px;
+        border-radius: 40%;
+}
+
+#nav{
+    background: #333;
+    color: white;
+    padding: 5px;
+
+}
+#nav ul {
+    padding: 0px;
+    list-style: none;
+}
+#nav li{
+    display: inline;
+}
+#nav a{
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 18px;
+}
+#nav a:hover{
+    color: coral;
+}
+#header{
+    text-align: center;
+    color: white;
+    background-color: #333;
+    padding: 5px;
+}
+#main-footer{
+    background: #333;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+        padding: 20px;
+}
+
+    
+
+.about-me{
+    color: rgb(248, 245, 245);
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px
+
+}
+.about-me h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
