@@ -11,10 +11,10 @@ pipeline{
         
         stage("Deploy"){
             steps{
-                withCredentials([sshUserPrivateKey(credentialsId: 'private-key', keyFileVariable: 'project14')]) {
+                withCredentials([sshUserPrivateKey(credentialsId: 'project14', keyFileVariable: 'SSH_KEY')]) {
                     // SSH connection to the remote server
                     sh '''
-                        ssh -i 'project14' ubuntu@13.40.4.139 cd /var/www/html && \
+                        ssh -i $SSH_KEY user@13.40.4.139 cd /var/www/html && \
                         git pull origin main && \
                         sudo service apache2 restart'''
                         
