@@ -14,7 +14,7 @@ pipeline{
                 withCredentials([sshUserPrivateKey(credentialsId: 'private-key', keyFileVariable: 'SSH_KEY')]) {
                     // SSH connection to the remote server
                     sh '''
-                        ssh -i $SSH_KEY user@13.40.4.139 cd /var/www/html && \
+                        ssh -i $SSH_KEY ubuntu@13.40.4.139 cd /var/www/html && \
                         git pull origin main && \
                         sudo service apache2 restart'''
                         
