@@ -20,7 +20,7 @@ pipeline{
                     // SSH connection to the remote server
                     sh '''
                         ssh -i project14 ubuntu@13.40.4.139 'cd /var/www/html && \
-                        git pull origin master && \
+                        git pull origin main && \
                         
                     '''
                      sh "sudo service apache2 restart"
